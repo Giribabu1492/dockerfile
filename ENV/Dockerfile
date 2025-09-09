@@ -5,3 +5,5 @@ ENV course = "Devops with AWS" \
     duration ="120"
 
 
+    RUN echo "hello world ${trainer}" > /tmp/devops.txt 
+
